@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style_main.css" rel="stylesheet">
+    <link href="css/style_header.css" rel="stylesheet">
+    <link href="css/style_image_sliders.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>3D Nebula</title>
+</head>
+<body>
+    <header>
+        <img id=logo-img src="assets/new_logo_3d_nebula.png" alt="logo">
+        <input class="search-box" type="text" name="search-box" placeholder="Search the Nebula" required>
+        <button class="header-buttons" id="sign-up-button" type="button">Sign Up</button>
+        <button class="header-buttons" id="log-in-button" type="button">Log In</button>
+    </header>
+
+    <main>
+        <div class="main-header">
+            <h1 class="category-labels">Most popular models this past 
+                <select name="timeframe" id="model-time-options">
+                    <option value="week">Week</option>
+                    <option value="month">Month</option>
+                    <option value="6-Months">6 Months</option>
+                    <option value="year">Year</option>
+                </select>
+            </h1>
+        </div>
+        <div class="main-lists-container">
+            <div class="column col-left">
+                <div class="subsection sub-left-1">
+                    <div class="img-nav-container">
+                        <button class="nav-buttons nav-prev" type="button">&nbsp<&nbsp</button>
+                        <div class="slider-wrapper">
+                            <img src="assets/model_example1.png" class="model-img" alt="model-img">
+                            <img src="assets/model_example2.png" class="model-img" alt="model-img">
+                            <img src="assets/model_example3.png" class="model-img" alt="model-img">
+                            <img src="assets/model_example4.png" class="model-img" alt="model-img">
+                            <img src="assets/model_example5.png" class="model-img" alt="model-img">
+                            <img src="assets/model_example6.png" class="model-img" alt="model-img">
+                        </div>
+                        <button class="nav-buttons nav-next" type="button">&nbsp>&nbsp</button>
+                    </div>
+                </div>
+                <h1 class="category-labels">My Categories</h1>
+                <div class="subsection sub-left-2">
+                    <h2>Art & Design</h2>
+                    <div class="img-nav-container">
+                        <button class="nav-buttons nav-prev" type="button">&nbsp<&nbsp</button>
+                        <div class="slider-wrapper">
+                            <img src="assets/model_example1.png" class="model-img" alt="model-img">
+                            <img src="assets/model_example2.png" class="model-img" alt="model-img">
+                            <img src="assets/model_example3.png" class="model-img" alt="model-img">
+                            <img src="assets/model_example4.png" class="model-img" alt="model-img">
+                            <img src="assets/model_example5.png" class="model-img" alt="model-img">
+                            <img src="assets/model_example6.png" class="model-img" alt="model-img">
+                        </div>
+                        <button class="nav-buttons nav-next" type="button">&nbsp>&nbsp</button>
+                    </div>
+                </div>
+                <div class="subsection sub-left-3">
+                    <h2>Tabletop Games</h2>
+                    <div class="img-nav-container">
+                        <button class="nav-buttons nav-prev" type="button">&nbsp<&nbsp</button>
+                        <div class="slider-wrapper">
+                            <img src="assets/model_example1.png" class="model-img" alt="model-img">
+                            <img src="assets/model_example2.png" class="model-img" alt="model-img">
+                            <img src="assets/model_example3.png" class="model-img" alt="model-img">
+                            <img src="assets/model_example4.png" class="model-img" alt="model-img">
+                            <img src="assets/model_example5.png" class="model-img" alt="model-img">
+                            <img src="assets/model_example6.png" class="model-img" alt="model-img">
+                        </div>
+                        <button class="nav-buttons nav-next" type="button">&nbsp>&nbsp</button>
+                    </div>
+                </div>
+                <div class="subsection sub-left-4">
+                    <h2>Gadgets</h2>
+                    <div class="img-nav-container">
+                        <button class="nav-buttons nav-prev" type="button">&nbsp<&nbsp</button>
+                        <div class="slider-wrapper">
+                            <img src="assets/model_example1.png" class="model-img" alt="model-img">
+                            <img src="assets/model_example2.png" class="model-img" alt="model-img">
+                            <img src="assets/model_example3.png" class="model-img" alt="model-img">
+                            <img src="assets/model_example4.png" class="model-img" alt="model-img">
+                            <img src="assets/model_example5.png" class="model-img" alt="model-img">
+                            <img src="assets/model_example6.png" class="model-img" alt="model-img">
+                        </div>
+                        <button class="nav-buttons nav-next" type="button">&nbsp>&nbsp</button>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="column col-right">
+                <div class="subsection sub-right-1">
+                    
+                </div>
+                <div class="subsection sub-right-2">
+
+                </div>
+            </div> -->
+        </div>
+    </main>
+
+    <footer>
+        <span class="footer-text">Created by Justin Karp</span>
+        <span class="footer-text">© 2023 Justin Karp - All right reserved.</span>
+        <span class="footer-text">Last updated: May 2023</span>
+    </footer>
+</body>
+</html>

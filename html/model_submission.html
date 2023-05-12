@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/style_model_submission.css" rel="stylesheet">
+    <link href="../css/style_header.css" rel="stylesheet">
+    <script src="../js/model_sub_script.js"></script>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>3D Nebula</title>
+</head>
+<body>
+    <header>
+        <img id=logo-img src="../assets/new_logo_3d_nebula.png" alt="logo">
+        <input class="search-box" type="text" name="search-box" placeholder="Search the Nebula" required>
+        <button class="header-buttons" id="sign-up-button" type="button">Sign Up</button>
+        <button class="header-buttons" id="log-in-button" type="button">Log In</button>
+    </header>
+
+    <main>
+        <div class="main-header">
+            
+        </div>
+        <div class="main-lists-container">
+            <div class="column col-left">
+                <div class="container-gap">
+                    <div class="subsection sub-left-1">
+                        <div class="img-nav-container">
+                            <button class="nav-buttons nav-prev" type="button">&nbsp<&nbsp</button>
+                            <div class="slider-wrapper">
+                                <img src="../assets/model_example7.png" class="model-img" alt="model-img">
+                            </div>
+                            <button class="nav-buttons nav-next" type="button">&nbsp>&nbsp</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-gap">
+                    <div class="subsection sub-left-2">
+                        <h2>Comments & Discussion</h2>
+                        <div class="comment-block">
+                            <div class="user-comment-info-line">
+                                <span><b>ChippyWan23</b></span>
+                                <span>•</span>
+                                <span>17 points</span>
+                                <span>•</span>
+                                <span>2 days ago</span>
+                            </div>
+                            <p>This is a wonderful model, I cannot wit to try it out and print it!</p>
+                        </div>
+                        <div class="comment-block" id="comment2">
+                            <div class="user-comment-info-line">
+                                <span><b>Manboibro9191</b></span>
+                                <span>•</span>
+                                <span>12 points</span>
+                                <span>•</span>
+                                <span>2 days ago</span>
+                            </div>
+                            <p>I totally agree, this model looks super well made and crazy modular.</p>
+                        </div>
+                        <div class="comment-block" id="comment3">
+                            <div class="user-comment-info-line">
+                                <span><b>ChippyWan23</b></span>
+                                <span>•</span>
+                                <span>17 points</span>
+                                <span>•</span>
+                                <span>2 days ago</span>
+                            </div>
+                            <p>This is a wonderful model, I cannot wit to try it out and print it!</p>
+                        </div>
+                        <div class="comment-block">
+                            <div class="user-comment-info-line">
+                                <span><b>ChippyWan23</b></span>
+                                <span>•</span>
+                                <span>17 points</span>
+                                <span>•</span>
+                                <span>2 days ago</span>
+                            </div>
+                            <p>This is a wonderful model, I cannot wit to try it out and print it!</p>
+                        </div>
+                        <div class="comment-block">
+                            <div class="user-comment-info-line">
+                                <span><b>ChippyWan23</b></span>
+                                <span>•</span>
+                                <span>17 points</span>
+                                <span>•</span>
+                                <span>2 days ago</span>
+                            </div>
+                            <p>This is a wonderful model, I cannot wit to try it out and print it!</p>
+                        </div>
+                        <div class="comment-block" id="comment2">
+                            <div class="user-comment-info-line">
+                                <span><b>Manboibro9191</b></span>
+                                <span>•</span>
+                                <span>12 points</span>
+                                <span>•</span>
+                                <span>2 days ago</span>
+                            </div>
+                            <p>I totally agree, this model looks super well made and crazy modular.</p>
+                        </div>
+                        <div class="comment-block" id="comment2">
+                            <div class="user-comment-info-line">
+                                <span><b>ChippyWan23</b></span>
+                                <span>•</span>
+                                <span>17 points</span>
+                                <span>•</span>
+                                <span>2 days ago</span>
+                            </div>
+                            <p>This is a wonderful model, I cannot wit to try it out and print it!</p>
+                        </div>
+                        <div class="comment-block">
+                            <div class="user-comment-info-line">
+                                <span><b>ChippyWan23</b></span>
+                                <span>•</span>
+                                <span>17 points</span>
+                                <span>•</span>
+                                <span>2 days ago</span>
+                            </div>
+                            <p>This is a wonderful model, I cannot wit to try it out and print it!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column col-right">
+                <div class="container-gap">
+                    <div class="subsection sub-right-1">
+                        <h1 class="model-title-label">Modular Drawer System</h1>
+                        <div class="user-info-container">
+                            <span class="user-name-label">by <b>Userman8020</b></span>
+                            <span class="downloads-label">4238 Downloads</span>
+                        </div>
+                        <p>This is a brief summary of the model submission. Find more details below in the full description.</p>
+                        <div class="download-container">
+                            <button>Download All Files</button>
+                            <div class="bookmark-container">
+                                <button>Bookmark</button>
+                                <select name="bookmark-folders" id="bookmark-options">
+                                    <option value="default">Select Folder</option>
+                                    <option value="useful">Useful</option>
+                                    <option value="cute-toys">Cute/Toys</option>
+                                    <option value="dnd">DnD Stuff</option>
+                                    <option value="tools">Tools</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-gap">
+                    <div class="subsection sub-right-2">
+                        <div class="details-container">
+                            <span class="detail-button" id="first-detail-button">Details</span>
+                            <span class="detail-button">Files</span>
+                            <span class="detail-button">Remixes</span>
+                            <span class="detail-button" id="last-detail-button">Similar Models</span>
+                        </div>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                            pariatur. <br><br>Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+                            qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <span class="footer-text">Created by Justin Karp</span>
+        <span class="footer-text">© 2023 Justin Karp - All right reserved.</span>
+        <span class="footer-text">Last updated: May 2023</span>
+    </footer>
+</body>
+</html>
